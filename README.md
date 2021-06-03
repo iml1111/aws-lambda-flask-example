@@ -5,9 +5,9 @@ AWS Lambda Flask Example with Zappa
 
 ## Dependency
 
-- python 3.7.1
-- zappa 0.52.0
-- kappa 0.6.0
+- **python 3.7.1**
+- **zappa 0.52.0**
+- **kappa 0.6.0**
 
 
 
