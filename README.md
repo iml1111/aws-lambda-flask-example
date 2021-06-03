@@ -14,13 +14,15 @@ $ pip install flask
 ```
 
 ### 1-2. 문제가 있을 경우의 설치 방법
-- 현재 2021-06-03 기준으로 Flask 2.0 업데이트에 더불어 zappa와의 버전 차이 문제가 있는 듯 합니다.
+- 현재 2021-06-03 기준으로 Flask 2.0 업데이트에 더불어 zappa와의 버전 차이 및 Windows 운영체제에 한하여 문제가 있는 듯 합니다.
 그 경우, 아래와 같이 순서대로 작업을 수행해줍니다.
 ```shell
+$ python -m pip install --upgrade pip
 $ git clone https://github.com/garnaat/kappa
 // You need to change the version of /kappa/__init__.py to 0.6.0.
 
-$ python -m pip install --upgrade pip && pip install ./kappa/ && pip install zappa && pip install flask && pip install awscli
+$ pip install ./kappa/
+$ pip install -r requirements.txt
 ```
 
 ### 2. AWS CLI 세팅

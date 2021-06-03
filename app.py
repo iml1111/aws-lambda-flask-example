@@ -7,7 +7,7 @@ application = Flask(__name__)
 def index():
 	return """
 	<h1>AWS-Lambda-Flask-Example</h1>
-	<p>HI, I'M IML!!!</p>
+	<p>HI,  I'M IML!</p>
 	"""
 
 
