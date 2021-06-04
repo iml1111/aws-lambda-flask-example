@@ -3,7 +3,7 @@
         "app_function": "app.application",
         "aws_region": "ap-northeast-2",
         "profile_name": "default",
-        "project_name": "aws-lambda-flas2",
+        "project_name": "aws-lambda-flask-example",
         "runtime": "python3.7",
         "s3_bucket": "zappa-18ly2ajrf"
     }

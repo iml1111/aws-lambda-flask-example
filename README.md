@@ -22,6 +22,7 @@ AWS Lambda Flask Example with Zappa
 ```shell
 $ pip install zappa
 $ pip install flask
+$ pip install awscli
 ```
 
 
@@ -57,6 +58,8 @@ Default output format [None]: json
 
 
 ### 3. Zappa init & deploy
+zappa init 설정을 완료하면 zappa_settings.json이 생성됩니다.
+github action으로 배포를 자동화하기 원한다면 해당 파일도 함께 Git에 함께 저장합니다.
 
 ```shell
 $ zappa init
